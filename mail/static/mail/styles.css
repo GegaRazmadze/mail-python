@@ -1,0 +1,34 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    border: 1px solid green;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email:hover {
+    cursor: pointer;
+}
+
+.email > span:first-child {
+    margin-left: 10px;
+}
+
+.email > span:last-child {
+    margin-right: 10px;
+}
+
+.email_body {
+    border: 1px solid black;
+    height: 45vh;
+    background: gainsboro;
+}
+
+.replay_button{
+    margin: 10px;
+}
